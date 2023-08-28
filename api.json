@@ -1,0 +1,74 @@
+[
+    {
+        "precio": 15,
+        "id": 1,
+        "title": "Bubulubu",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/1.png"
+    },
+    {
+        "precio": 10,
+        "id": 2,
+        "title": "Bubbalo",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/2.jpg"
+    },
+    {
+        "precio": 25,
+        "id": 3,
+        "title": "Pica Fresa",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/3.jpeg"
+    },
+    {
+        "precio": 10,
+        "id": 4,
+        "title": "Paleta Payaso",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/4.jpg"
+    },
+    {
+        "precio": 22,
+        "id": 5,
+        "title": "Root Beer",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/5.jpg"
+    },
+    {
+        "precio": 10,
+        "id": 6,
+        "title": "Whoopers",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/6.jpg"
+    },
+    {
+        "precio": 15,
+        "id": 7,
+        "title": "Danonino",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/7.jpg"
+    },
+    {
+        "precio": 25,
+        "id": 8,
+        "title": "Ferrero Rocher",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/8.jpg"
+    },
+    {
+        "precio": 20,
+        "id": 9,
+        "title": "Takis",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/9.jpg"
+    },
+    {
+        "precio": 28,
+        "id": 10,
+        "title": "Galletas Pingüinos",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/10.jpg"
+    },
+    {
+        "precio": 15,
+        "id": 11,
+        "title": "Choco Roles",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/11.jpg"
+    },
+    {
+        "precio": 30,
+        "id": 12,
+        "title": "Lay's Classic",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/12.jpg"
+    }
+]
