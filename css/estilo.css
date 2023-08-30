@@ -1,0 +1,58 @@
+div#fondo{
+    background-color: black;
+}
+
+th{
+    color: aliceblue;
+}
+td{
+    color: aliceblue;
+}
+#banner{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+.table{
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 0px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 20px;
+    text-decoration: none;
+}
+
+footer .datos{
+    margin-top: 10px;
+}
+.card{
+    margin-bottom: 35px;
+    color: aliceblue;
+    background-color: rgb(34, 34, 34);
+    border-color: aqua;
+}
+.card-img-top{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+button.btn{
+    background-color: rgb(41, 0, 41);
+}
+.btn-dark {
+    color: #fff;
+    background-color: #8000bb;
+    border-color: #8450ff;
+}
+.btn-dark:hover{
+    background-color: purple;
+    border-color: #9c72ff;
+}

@@ -1,4 +1,3 @@
-//---------------------------------------------1. DECLARACIONES DE LAS CONSTANTES
 const cards = document.getElementById('cards');
 const items = document.getElementById('items');
 const footer = document.getElementById('footer');
@@ -7,14 +6,14 @@ const templateFooter = document.getElementById('template-footer').content;
 const templateCarrito = document.getElementById('template-carrito').content;
 const fragmento = document.createDocumentFragment();
 
-//------------------------------------------2. SE CREA EL CARRITO VACÍO
+
 let carrito = {};
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
 });
 
-//------------------------------------------3. EVENTO ON CLICK
+
 cards.addEventListener('click', e => {
     addCarrito(e);
 });
@@ -23,7 +22,7 @@ items.addEventListener('click', e =>{
     btnAccion(e);
 })
 
-//------------------------------------------4. CONSUMO API RES JSON / AGREGAR DATOS AL JSON
+
 const fetchData = async () => {
     try {
         const res = await fetch('api.json');
@@ -34,7 +33,7 @@ const fetchData = async () => {
         console.log(error);
     }
 };
-//-------------------------------------------5. METODO MOSTRAR PRODUCTOS
+
 const mostrarProductos = data => {
     data.forEach(producto => {
         templateCard.querySelector('h5').textContent = producto.title;
@@ -48,7 +47,7 @@ const mostrarProductos = data => {
     cards.appendChild(fragmento);
 };
 
-//---------------------------------------6. METODO ADD CARRITO
+
 const addCarrito = e => {
     if (e.target.classList.contains('btn-dark')) {
         setCarrito(e.target.parentElement);
@@ -56,7 +55,7 @@ const addCarrito = e => {
     e.stopPropagation();
 };
 
-//---------------------------------------------------7. METODO INICIALIZAR EL CARRITO
+
 const setCarrito = objeto => {
     const producto = {
         id: objeto.querySelector('.btn-dark').dataset.id,
@@ -73,7 +72,7 @@ const setCarrito = objeto => {
     mostrarCarrito();
 };
 
-//---------------------------------8. MOSTRAR CARRITO
+
 const mostrarCarrito = () => {
     items.innerHTML = '';
     let indice = 1; // Variable para llevar la cuenta de los elementos en el carrito
@@ -91,12 +90,12 @@ const mostrarCarrito = () => {
     mostrarFooter();
 };
 
-//----------------------------------------------------------9. METODO MOSTRAR FOOTER
+
 const mostrarFooter = () => {
     footer.innerHTML = '';
     if (Object.keys(carrito).length === 0) {
         footer.innerHTML = `
-            <th scope="row" colspan="5">Carrito vacío - comience a comprar!!</th>
+            <th scope="row" colspan="5">Aún has comprado nada!  -  Qué esperas para ser todo un gamer??</th>
         `
         return;
     } 
@@ -116,18 +115,12 @@ const mostrarFooter = () => {
         mostrarCarrito()
     })
 }
-    /*else {
-        const cloneFooter = templateFooter.cloneNode(true);
-        footer.appendChild(cloneFooter);
-    };*
 
-// Llama a mostrarFooter al cargar la página para que el footer inicial se muestre correctamente*/
-mostrarFooter();
 
-//--------------------------------------------- BTN ACCION
+
 const btnAccion = e =>{
     console.log(e.target)
-    //--------------------------------------------Se agregan productos +
+
     if(e.target.classList.contains('btn-info')){
         console.log(carrito[e.target.dataset.id])
 

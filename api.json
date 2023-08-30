@@ -1,74 +1,74 @@
 [
     {
-        "precio": 15,
+        "precio": 1200,
         "id": 1,
-        "title": "Bubulubu",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/1.png"
+        "title": "Gabinete Gamer",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/1.jpg"
     },
     {
         "precio": 10,
-        "id": 2,
-        "title": "Bubbalo",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/2.jpg"
+        "id": 250,
+        "title": "Pasta Térmica",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/2.jpg"
     },
     {
-        "precio": 25,
+        "precio": 2800,
         "id": 3,
-        "title": "Pica Fresa",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/3.jpeg"
+        "title": "AMD Ryzen 7",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/3.jpg"
     },
     {
-        "precio": 10,
+        "precio": 2100,
         "id": 4,
-        "title": "Paleta Payaso",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/4.jpg"
+        "title": "Refrigeración Líquida",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/4.jpg"
     },
     {
-        "precio": 22,
+        "precio": 1800,
         "id": 5,
-        "title": "Root Beer",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/5.jpg"
+        "title": "Teclado y mouse gamer",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/5.jpg"
     },
     {
-        "precio": 10,
+        "precio": 150,
         "id": 6,
-        "title": "Whoopers",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/6.jpg"
+        "title": "Mouse gamer",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/6.jpg"
     },
     {
-        "precio": 15,
+        "precio": 2500,
         "id": 7,
-        "title": "Danonino",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/7.jpg"
+        "title": "Silla gaming",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/7.jpg"
     },
     {
-        "precio": 25,
+        "precio": 2000,
         "id": 8,
-        "title": "Ferrero Rocher",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/8.jpg"
+        "title": "Tarjeta madre",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/8.jpg"
     },
     {
-        "precio": 20,
+        "precio": 5000,
         "id": 9,
-        "title": "Takis",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/9.jpg"
+        "title": "Monitor",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/9.jpg"
     },
     {
-        "precio": 28,
+        "precio": 1300,
         "id": 10,
-        "title": "Galletas Pingüinos",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/10.jpg"
+        "title": "Gabinete",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/10.jpg"
     },
     {
-        "precio": 15,
+        "precio": 265,
         "id": 11,
-        "title": "Choco Roles",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/11.jpg"
+        "title": "Audifonos",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/11.jpg"
     },
     {
-        "precio": 30,
+        "precio": 100,
         "id": 12,
-        "title": "Lay's Classic",
-        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Golosinas2/12.jpg"
+        "title": "Gamig Mouse pad",
+        "thumbnailUrl":"https://ivanestudios76.000webhostapp.com/Componentes/12.jpg"
     }
 ]
